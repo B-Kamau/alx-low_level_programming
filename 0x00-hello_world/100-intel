@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="$CFILE"
-FILENAME=$(basename "$CFILE" 
-gcc -S -masm=intel "$CFILE" -o "$FILENAME.s"
+gcc -S -masm=intel $CFILE -o $CFILE.s
